@@ -10,7 +10,7 @@ extern std::set<std::string, ciLess> badnameset;
 // blocked IP addresses
 extern std::set<std::string> blockedIP;
 // list of all connected players
-extern tPlayerList playerlist;   
+extern tPlayerList playerlist;
 // map of all rooms
 extern tRoomMap roommap;
 // map of known commands (eg. look, quit, north etc.)

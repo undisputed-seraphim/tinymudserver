@@ -14,14 +14,14 @@ static const long COMMS_WAIT_SEC = 0;         // time to wait in seconds
 static const long COMMS_WAIT_USEC = 500000;   // time to wait in microseconds
 static const int NO_SOCKET = -1;              // indicator for no socket connected
 // files
-static const string PLAYER_DIR    = "./players/";    // location of player files
-static const string PLAYER_EXT    = ".player";       // suffix for player files
+static const string PLAYER_DIR = "./players/";    // location of player files
+static const string PLAYER_EXT = ".player";       // suffix for player files
 static const char * MESSAGES_FILE = "./system/messages.txt";  // messages
-static const char * CONTROL_FILE  = "./system/control.txt";   // control file
-static const char * ROOMS_FILE    = "./rooms/rooms.txt";      // rooms file
+static const char * CONTROL_FILE = "./system/control.txt";   // control file
+static const char * ROOMS_FILE = "./rooms/rooms.txt";      // rooms file
 // player names must consist of characters from this list
-static const string valid_player_name = 
-  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";
+static const string valid_player_name =
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-";
 
 
 #endif // TINYMUDSERVER_CONSTANTS_H
